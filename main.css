@@ -1,0 +1,560 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.jumbotron {
+  height: 100vh;
+  background-position: center;
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.8)),
+      to(rgba(0, 0, 0, 0.6))),
+    url(/cge01.jpg);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+.jumbotron1 {
+  height: 50vh;
+  background-position: center;
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.8)),
+      to(rgba(0, 0, 0, 0.6))),
+    url(/cge01.jpg);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+.jumbotron>h1 {
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 14%;
+  font-size: 3.75rem !important;
+}
+
+.lead {
+  position: absolute !important;
+  top: 38% !important;
+  color: white;
+  left: 15%;
+  font-size: 2rem !important;
+  line-height: 45pt !important;
+}
+
+.jumbotron>p {
+  color: white;
+  position: absolute;
+  top: 68%;
+  left: 15%;
+  font-size: 2rem;
+  line-height: 25pt;
+}
+
+.btn1 {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  background-color: #c2a387;
+  border: #c2a387;
+  transition: 0.5s ease-in-out;
+  padding: 10px 40px;
+}
+
+.btn1:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  color: #c2a387;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .jumbotron>h1 {
+    font-size: 2rem !important;
+    left: 5%;
+    top: 20%;
+    color: #c2a387;
+  }
+
+  .lead {
+    font-size: 1.25rem !important;
+    line-height: 2pt;
+    left: 5%;
+    top: 42% !important;
+  }
+
+  .jumbotron>p {
+    font-size: 1.1rem;
+    line-height: 15pt;
+    top: 65%;
+    left: 5%;
+  }
+
+  .btn1 {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    padding: 5px 30px;
+  }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 600px) {
+  .jumbotron>h1 {
+    font-size: 2rem !important;
+    left: 5%;
+    top: 25%;
+    color: #c2a387;
+  }
+
+  .lead {
+    font-size: 1.15rem !important;
+    left: 5%;
+    top: 45% !important;
+  }
+
+  .jumbotron>p {
+    font-size: 1.45rem;
+    line-height: 18pt;
+    top: 62%;
+    left: 5%;
+  }
+
+  .btn1 {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    padding: 5px 30px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .jumbotron>h1 {
+    font-size: 2.75rem !important;
+    left: 5%;
+    top: 25%;
+    color: #c2a387;
+  }
+
+  .lead {
+    font-size: 1.75rem !important;
+    line-height: 2pt;
+    left: 5%;
+    top: 40% !important;
+  }
+
+  .jumbotron>p {
+    font-size: 1.45rem;
+    line-height: 22pt;
+    top: 75%;
+    left: 5%;
+  }
+
+  .btn1 {
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    padding: 5px 30px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .jumbotron>h1 {
+    font-size: 3rem !important;
+    left: 6%;
+    top: 25%;
+    color: #c2a387;
+  }
+
+  .lead {
+    font-size: 1.45rem !important;
+    line-height: 2pt;
+    left: 6%;
+    top: 42% !important;
+  }
+
+  .jumbotron>p {
+    font-size: 1.85rem;
+    line-height: 28pt;
+    top: 58%;
+    left: 6%;
+  }
+
+  .btn1 {
+    position: absolute;
+    left: 6%;
+    top: 75%;
+    padding: 5px 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .jumbotron>h1 {
+    font-size: 3rem !important;
+    left: 6%;
+    top: 25%;
+    color: #c2a387;
+  }
+
+  .lead {
+    font-size: 1.45rem !important;
+    line-height: 2pt;
+    left: 6%;
+    top: 42% !important;
+  }
+
+  .jumbotron>p {
+    font-size: 1.85rem;
+    line-height: 28pt;
+    top: 58%;
+    left: 6%;
+  }
+
+  .btn1 {
+    position: absolute;
+    left: 6%;
+    top: 75%;
+    padding: 5px 30px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+  .jumbotron>h1 {
+    font-size: 4rem !important;
+    left: 6%;
+    top: 25%;
+    color: #c2a387;
+  }
+
+  .lead {
+    font-size: 2rem !important;
+
+    left: 6%;
+    top: 45% !important;
+  }
+
+  .jumbotron>p {
+    font-size: 2.45rem small;
+    line-height: 28pt;
+    top: 68%;
+    left: 6%;
+  }
+
+  .btn1 {
+    position: absolute;
+    left: 6%;
+    top: 80%;
+    padding: 5px 30px;
+  }
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner>img {
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.avantage {
+  background-color: #ebebeb;
+}
+
+.btn2 {
+  background-color: #c2a387;
+  border: #c2a387;
+  transition: 0.5s ease-in-out;
+  padding: 10px 20px;
+}
+
+.btn2:hover {
+  text-decoration: none;
+  border: #c2a387;
+  cursor: pointer;
+  border: 1px solid #c2a387;
+  background-color: white;
+  color: #c2a387;
+}
+
+.imagy {
+  height: 85px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.marketing {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12pt bold;
+  margin-top: 50px;
+}
+
+.marketing>h2 {
+  font-size: 12pt bold;
+  text-align: center;
+}
+
+.section_footer {
+  background-color: #151515;
+}
+
+.pagy {
+  background-color: #dddddd;
+  padding: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .pagy {
+    padding: 10px 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12pt bold;
+    margin-top: 50px;
+  }
+}
+
+.bg-dark {
+  background: transparent !important;
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
+  text-align: center;
+}
+
+.bg-dark.scrolled {
+  background: #c2a387 !important;
+  text-align: center;
+}
+
+.bg-dark.scrolled:hover {
+  background: #e2d2c3 !important;
+}
+
+.bg-brooney {
+  background: #c2a387 !important;
+  -webkit-transition: 0.75s ease;
+  transition: 0.75s ease;
+  text-align: center;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: bolder !important;
+}
+
+.nav-link.scrolled {
+  color: white !important;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0%;
+  height: 6px;
+  background: #ffffff;
+  display: block;
+  margin: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav-link:hover::after {
+  width: 80%;
+}
+
+.nav {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: bolder !important;
+}
+
+.nav.scrolled {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav::after {
+  content: "";
+  width: 0%;
+  height: 6px;
+  background: #ffffff;
+  display: block;
+  margin: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav:hover::after {
+  width: 80%;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.page-footer {
+  background-color: #555555;
+}
+
+.border {
+  width: 80px;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.fas {
+  padding: 2px !important;
+  margin: 0px !important;
+}
+
+.fa {
+  padding: 2px !important;
+  margin: 0px !important;
+}
+
+.empty {
+  height: 120px;
+}
+
+.imgy {
+  overflow: hidden;
+}
+
+.about-img {
+  max-height: 20vh;
+}
+
+.info {
+  margin-top: 80px !important;
+  color: #c2a387;
+  font-size: 35pt;
+}
+
+.infos>p {
+  text-align: justify;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+}
+
+.anime {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.anim {
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+}
+
+
+.feedback {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+.btn-msg {
+  background-color: #c2a387;
+  border: #dddddd;
+}
+
+.btn-msg:hover {
+  color: #c2a387;
+  background-color: #ffffff;
+  border: #c2a387 2px solid;
+}
+
+
+
+.btn3 {
+  background-color: #ff0000;
+  border: #ffffff;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  padding: 20px 50px;
+}
+
+.btn3:hover {
+  text-decoration: none;
+  border: #c2a387;
+  cursor: pointer;
+  border: 1px solid #c2a387;
+  background-color: white;
+  color: #c2a387;
+}
+
+
+
+
+.lg-7 {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+}
+
+
+.lg-7>h6 {
+  padding: 45px;
+  margin: 10px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #e2d2c3;
+}
+
+.lg-4 {
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+
+
+
+/* No CSS # sourceMappingURL=main.css.map */
